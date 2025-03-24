@@ -1,0 +1,72 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/register/register",
+    "pages/forget/forget",
+    "pages/center/center",
+    "pages/user-info/user-info",
+    "pages/yonghu/list",
+    "pages/yonghu/add-or-update",
+    "pages/yonghu/detail",
+    "pages/danweirenzheng/list",
+    "pages/danweirenzheng/add-or-update",
+    "pages/danweirenzheng/detail",
+    "pages/xiangmushenbao/list",
+    "pages/xiangmushenbao/add-or-update",
+    "pages/xiangmushenbao/detail",
+    "pages/zhuanjiapingshen/list",
+    "pages/zhuanjiapingshen/add-or-update",
+    "pages/zhuanjiapingshen/detail",
+    "pages/xuqiuzhengji/list",
+    "pages/xuqiuzhengji/add-or-update",
+    "pages/xuqiuzhengji/detail",
+    "pages/tongzhigonggao/list",
+    "pages/tongzhigonggao/add-or-update",
+    "pages/tongzhigonggao/detail",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "面向企事业单位的项目申报小程序",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#5559B6",
+    "borderStyle": "white",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/index.png",
+        "selectedIconPath": "static/tabs/index1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/xuqiuzhengji/list",
+        "iconPath": "/static/tabs/icon1.png",
+        "selectedIconPath": "/static/tabs/icon1_act.png",
+        "text": "需求征集"
+      },
+      {
+        "pagePath": "pages/tongzhigonggao/list",
+        "iconPath": "/static/tabs/icon2.png",
+        "selectedIconPath": "/static/tabs/icon2_act.png",
+        "text": "通知公告"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/tabs/mine.png",
+        "selectedIconPath": "static/tabs/mine1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {
+    "uni-load-more": "/components/mescroll-uni/mescroll-uni",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "uni-popup": "/components/uni-popup/uni-popup"
+  }
+}

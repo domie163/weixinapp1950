@@ -1,0 +1,209 @@
+{
+    "easycom": {
+    	"^z-(.*)": "@zebra-ui/swiper/components/z-$1/z-$1.vue"
+    },
+	"pages": [{
+		"path": "pages/login/login",
+		"style": {
+			"navigationBarBackgroundColor": "#5559B6",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "登录"
+		}
+	}, {
+		"path": "pages/register/register",
+		"style": {
+			"navigationBarBackgroundColor": "#5559B6",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "注册"
+		}
+	}, {
+		"path": "pages/forget/forget",
+		"style": {
+			"navigationBarBackgroundColor": "#5559B6",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "忘记密码"
+		}
+	}, {
+		"path": "pages/center/center",
+		"style": {
+			"navigationBarBackgroundColor": "#5559B6",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "我的"
+		}
+	}, {
+		"path": "pages/user-info/user-info",
+		"style": {
+			"navigationBarBackgroundColor": "#5559B6",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "用户信息"
+		}
+	}
+	,{
+		"path": "pages/yonghu/list",
+		"style": {
+			"navigationBarBackgroundColor": "#5559B6",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/yonghu/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#5559B6",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/yonghu/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#5859B6",
+			"navigationBarTextStyle": "white"
+		}
+	}
+	,{
+		"path": "pages/danweirenzheng/list",
+		"style": {
+			"navigationBarBackgroundColor": "#5559B6",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/danweirenzheng/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#5559B6",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/danweirenzheng/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#5859B6",
+			"navigationBarTextStyle": "white"
+		}
+	}
+	,{
+		"path": "pages/xiangmushenbao/list",
+		"style": {
+			"navigationBarBackgroundColor": "#5559B6",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/xiangmushenbao/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#5559B6",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/xiangmushenbao/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#5859B6",
+			"navigationBarTextStyle": "white"
+		}
+	}
+	,{
+		"path": "pages/zhuanjiapingshen/list",
+		"style": {
+			"navigationBarBackgroundColor": "#5559B6",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/zhuanjiapingshen/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#5559B6",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/zhuanjiapingshen/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#5859B6",
+			"navigationBarTextStyle": "white"
+		}
+	}
+	,{
+		"path": "pages/xuqiuzhengji/list",
+		"style": {
+			"navigationBarBackgroundColor": "#5559B6",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/xuqiuzhengji/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#5559B6",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/xuqiuzhengji/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#5859B6",
+			"navigationBarTextStyle": "white"
+		}
+	}
+	,{
+		"path": "pages/tongzhigonggao/list",
+		"style": {
+			"navigationBarBackgroundColor": "#5559B6",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/tongzhigonggao/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#5559B6",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/tongzhigonggao/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#5859B6",
+			"navigationBarTextStyle": "white"
+		}
+	}
+	, {
+		"path": "pages/index/index",
+		"style": {
+			"navigationBarBackgroundColor": "#5559B6",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "首页"
+		}
+	}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "面向企事业单位的项目申报小程序",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#000000",
+		"selectedColor": "#5559B6",
+		"borderStyle": "white",
+		"backgroundColor": "#FFFFFF",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tabs/index.png",
+				"selectedIconPath": "static/tabs/index1.png",
+				"text": "首页"
+			}
+			
+
+			,{
+				"pagePath": "pages/xuqiuzhengji/list",
+				"iconPath": "/static/tabs/icon1.png",
+				"selectedIconPath": "/static/tabs/icon1_act.png",
+				"text": "需求征集"
+			}
+			,{
+				"pagePath": "pages/tongzhigonggao/list",
+				"iconPath": "/static/tabs/icon2.png",
+				"selectedIconPath": "/static/tabs/icon2_act.png",
+				"text": "通知公告"
+			}
+
+
+
+
+
+
+			,{
+				"pagePath": "pages/center/center",
+				"iconPath": "static/tabs/mine.png",
+				"selectedIconPath": "static/tabs/mine1.png",
+				"text": "我的"
+			}
+		]
+	}
+}
